@@ -2,6 +2,10 @@
 
 All changes we make to the assignment code or PDF will be documented in this file.
 
+## [26.0.4] - 2026-05-05
+
+- code: rename test_and_make_submission.sh -> make_submission.sh and remove pytest
+
 ## [26.0.3] - 2026-05-05
 
 - code: add test_and_make_submission.sh

@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-uv run pytest -v ./tests --junitxml=test_results.xml || true
-echo "Done running tests"
-
 # Set the name of the output tar.gz file
 output_file="cs336-assignment-3-submission.zip"
 rm "$output_file" || true
