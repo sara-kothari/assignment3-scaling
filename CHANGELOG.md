@@ -2,6 +2,14 @@
 
 All changes we make to the assignment code or PDF will be documented in this file.
 
+## [26.0.4] - 2026-05-05
+
+- code: rename test_and_make_submission.sh -> make_submission.sh and remove pytest
+
+## [26.0.3] - 2026-05-05
+
+- code: add test_and_make_submission.sh
+
 ## [26.0.2] - 2026-05-04
 
 - code: remove max runtime from training config to allow 48 hour final submission
