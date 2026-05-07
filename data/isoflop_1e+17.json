@@ -1,0 +1,227 @@
+[
+  {
+    "experiment_id": 4433,
+    "parameters": 9437184,
+    "data": 1766195200,
+    "compute_flops": 100007454493900800,
+    "loss": 4.1064453125,
+    "status": "completed",
+    "config": {
+      "architecture_config": {
+        "attention_bias": false,
+        "head_dim": 64,
+        "hidden_size": 256,
+        "intermediate_size": 704,
+        "num_attention_heads": 4,
+        "num_hidden_layers": 12,
+        "num_key_value_heads": 4,
+        "rms_norm_eps": 1e-06,
+        "rope_theta": 1000000,
+        "tie_word_embeddings": false,
+        "dtype": "bfloat16",
+        "vocab_size": 32000
+      },
+      "optimizer_config": {
+        "lr_scheduler": {
+          "peak_value": 0.0009958936963633887,
+          "final_lr_frac": 0.1,
+          "warmup_frac": 0.05,
+          "init_value": 0.0
+        },
+        "weight_decay": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "eps": 1e-08,
+        "eps_root": 1e-08,
+        "grad_clip_norm": 1.0
+      },
+      "train_batch_size": 128,
+      "val_batch_size": 32,
+      "n_evals": 5,
+      "total_train_tokens": 1766195200,
+      "max_runtime_seconds": 2482,
+      "model_seed": 0
+    },
+    "used_runtime_seconds": 1842.8275761681143
+  },
+  {
+    "experiment_id": 4434,
+    "parameters": 21233664,
+    "data": 784793600,
+    "compute_flops": 99984261670502400,
+    "loss": 4.1494140625,
+    "status": "completed",
+    "config": {
+      "architecture_config": {
+        "attention_bias": false,
+        "head_dim": 64,
+        "hidden_size": 384,
+        "intermediate_size": 1024,
+        "num_attention_heads": 6,
+        "num_hidden_layers": 12,
+        "num_key_value_heads": 6,
+        "rms_norm_eps": 1e-06,
+        "rope_theta": 1000000,
+        "tie_word_embeddings": false,
+        "dtype": "bfloat16",
+        "vocab_size": 32000
+      },
+      "optimizer_config": {
+        "lr_scheduler": {
+          "peak_value": 0.0008991996646752765,
+          "final_lr_frac": 0.1,
+          "warmup_frac": 0.05,
+          "init_value": 0.0
+        },
+        "weight_decay": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "eps": 1e-08,
+        "eps_root": 1e-08,
+        "grad_clip_norm": 1.0
+      },
+      "train_batch_size": 128,
+      "val_batch_size": 32,
+      "n_evals": 5,
+      "total_train_tokens": 784793600,
+      "max_runtime_seconds": 2482,
+      "model_seed": 0
+    },
+    "used_runtime_seconds": 1530.2193121390883
+  },
+  {
+    "experiment_id": 4435,
+    "parameters": 28901376,
+    "data": 576716800,
+    "compute_flops": 100007454493900800,
+    "loss": 4.154296875,
+    "status": "completed",
+    "config": {
+      "architecture_config": {
+        "attention_bias": false,
+        "head_dim": 64,
+        "hidden_size": 448,
+        "intermediate_size": 1216,
+        "num_attention_heads": 7,
+        "num_hidden_layers": 12,
+        "num_key_value_heads": 7,
+        "rms_norm_eps": 1e-06,
+        "rope_theta": 1000000,
+        "tie_word_embeddings": false,
+        "dtype": "bfloat16",
+        "vocab_size": 32000
+      },
+      "optimizer_config": {
+        "lr_scheduler": {
+          "peak_value": 0.0008426372820941877,
+          "final_lr_frac": 0.1,
+          "warmup_frac": 0.05,
+          "init_value": 0.0
+        },
+        "weight_decay": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "eps": 1e-08,
+        "eps_root": 1e-08,
+        "grad_clip_norm": 1.0
+      },
+      "train_batch_size": 128,
+      "val_batch_size": 32,
+      "n_evals": 5,
+      "total_train_tokens": 576716800,
+      "max_runtime_seconds": 2482,
+      "model_seed": 0
+    },
+    "used_runtime_seconds": 718.0318311669398
+  },
+  {
+    "experiment_id": 4436,
+    "parameters": 37748736,
+    "data": 441384960,
+    "compute_flops": 99970345976463360,
+    "loss": 4.2353515625,
+    "status": "completed",
+    "config": {
+      "architecture_config": {
+        "attention_bias": false,
+        "head_dim": 64,
+        "hidden_size": 512,
+        "intermediate_size": 1344,
+        "num_attention_heads": 8,
+        "num_hidden_layers": 12,
+        "num_key_value_heads": 8,
+        "rms_norm_eps": 1e-06,
+        "rope_theta": 1000000,
+        "tie_word_embeddings": false,
+        "dtype": "bfloat16",
+        "vocab_size": 32000
+      },
+      "optimizer_config": {
+        "lr_scheduler": {
+          "peak_value": 0.0008025056329871638,
+          "final_lr_frac": 0.1,
+          "warmup_frac": 0.05,
+          "init_value": 0.0
+        },
+        "weight_decay": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "eps": 1e-08,
+        "eps_root": 1e-08,
+        "grad_clip_norm": 1.0
+      },
+      "train_batch_size": 128,
+      "val_batch_size": 32,
+      "n_evals": 5,
+      "total_train_tokens": 441384960,
+      "max_runtime_seconds": 2482,
+      "model_seed": 0
+    },
+    "used_runtime_seconds": 674.9813463400351
+  },
+  {
+    "experiment_id": 4437,
+    "parameters": 47775744,
+    "data": 348979200,
+    "compute_flops": 100036445523148800,
+    "loss": 4.328125,
+    "status": "completed",
+    "config": {
+      "architecture_config": {
+        "attention_bias": false,
+        "head_dim": 64,
+        "hidden_size": 576,
+        "intermediate_size": 1536,
+        "num_attention_heads": 9,
+        "num_hidden_layers": 12,
+        "num_key_value_heads": 9,
+        "rms_norm_eps": 1e-06,
+        "rope_theta": 1000000,
+        "tie_word_embeddings": false,
+        "dtype": "bfloat16",
+        "vocab_size": 32000
+      },
+      "optimizer_config": {
+        "lr_scheduler": {
+          "peak_value": 0.0007713771075788319,
+          "final_lr_frac": 0.1,
+          "warmup_frac": 0.05,
+          "init_value": 0.0
+        },
+        "weight_decay": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.95,
+        "eps": 1e-08,
+        "eps_root": 1e-08,
+        "grad_clip_norm": 1.0
+      },
+      "train_batch_size": 128,
+      "val_batch_size": 32,
+      "n_evals": 5,
+      "total_train_tokens": 348979200,
+      "max_runtime_seconds": 2482,
+      "model_seed": 0
+    },
+    "used_runtime_seconds": 600.2096642551478
+  }
+]
