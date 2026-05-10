@@ -34,17 +34,17 @@ training_config = {
             },
             "train_batch_size": 128,
             "val_batch_size": 32,
-            "n_evals": 5,
-            "total_train_tokens": 43472322560,
+            "n_evals": 10,
+            "total_train_tokens": 43471994880,
             "max_runtime_seconds": 172800,
             "model_seed": 0
         }
 
 final_submission = {
     "training_config": training_config,
-    "predicted_final_loss": 3.29,
+    "predicted_final_loss": 3.3092,
 }
 
-result = requests.post(f"{API_BASE_URL}/final_submission",  headers=headers, json=final_submission).json()
+# result = requests.post(f"{API_BASE_URL}/final_submission",  headers=headers, json=final_submission).json()
 # print(result)
 print(requests.get(f"{API_BASE_URL}/final_submission", headers=headers).json())

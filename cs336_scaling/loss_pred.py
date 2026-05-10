@@ -52,7 +52,9 @@ def main():
     E, A,alpha, B, beta = popt
     print(f"Fit result: loss =  {E:.4f} + {A:.4f}/N^{alpha:.4f} + {B:.4f}/D^{beta:.4f}")
     N_opt = 398721024
-    D_opt = 43472322560
+    # D_opt = 43472322560 
+    # D_opt = 43471994880 
+    D_opt = 33095482588
     predicted_loss = power_law((N_opt, D_opt), E, A, alpha, B, beta)
     print(f"Predicted loss: {predicted_loss}")
    
